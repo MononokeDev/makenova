@@ -1,0 +1,82 @@
+@import "fonts";
+
+body {
+    font-family: "ALS Hauss" !important;
+    padding-top: 70px;
+}
+
+.navbar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+    height: 2.7rem;
+    margin-right: 9rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 2.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-nav .nav-item {
+        margin-right: 1.3rem;
+    }
+
+    .navbar-brand img {
+        margin-right: 3rem;
+    }
+}
+
+.navbar__contact_us {
+    background-color: #f07c00;
+    color: white;
+    border-radius: .5rem;
+    width: 10rem;
+    border: 0;
+}
+
+.navbar__contact_us img {
+    height: .8rem;
+}
+
+.nav-item .active {
+    color: #f07c00 !important;
+    border-bottom: 1px solid #f07c00;
+}
+
+.main {
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+section {
+    padding: 2.5rem;
+}
+
+.main__card {
+    display: flex;
+    justify-content: center;
+}
+
+.main__card__img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: .9rem;
+    height: 25rem;
+    max-width: 20rem;
+}
+
+.main__card__img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.main__card__body {
+    position: absolute;
+    bottom: -.5em;
+    top: auto;
+}
+

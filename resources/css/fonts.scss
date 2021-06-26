@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Black.eot');
+    src: local('ALS Hauss Black'), local('ALSHauss-Black'),
+    url('/fonts/alshaus/ALSHauss-Black.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Black.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Black.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Book';
+    src: url('/fonts/alshaus/ALSHauss-Book.eot');
+    src: local('ALS Hauss Book'), local('ALSHauss-Book'),
+    url('/fonts/alshaus/ALSHauss-Book.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Book.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Book.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Light.eot');
+    src: local('ALS Hauss Light'), local('ALSHauss-Light'),
+    url('/fonts/alshaus/ALSHauss-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Light.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Light.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Book';
+    src: url('/fonts/alshaus/ALSHauss-BookItalic.eot');
+    src: local('ALS Hauss Book Italic'), local('ALSHauss-BookItalic'),
+    url('/fonts/alshaus/ALSHauss-BookItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-BookItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-BookItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Medium.eot');
+    src: local('ALS Hauss Medium'), local('ALSHauss-Medium'),
+    url('/fonts/alshaus/ALSHauss-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Medium.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Medium.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url('/fonts/alshaus/ALSHauss-Hairline.eot');
+    src: local('ALS Hauss Hairline'), local('ALSHauss-Hairline'),
+    url('/fonts/alshaus/ALSHauss-Hairline.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Hairline.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Hairline.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Thin.eot');
+    src: local('ALS Hauss Thin'), local('ALSHauss-Thin'),
+    url('/fonts/alshaus/ALSHauss-Thin.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Thin.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Thin.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-RegularItalic.eot');
+    src: local('ALS Hauss Regular Italic'), local('ALSHauss-RegularItalic'),
+    url('/fonts/alshaus/ALSHauss-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-RegularItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-RegularItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-BoldItalic.eot');
+    src: local('ALS Hauss Bold Italic'), local('ALSHauss-BoldItalic'),
+    url('/fonts/alshaus/ALSHauss-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-BoldItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-BoldItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-ThinItalic.eot');
+    src: local('ALS Hauss Thin Italic'), local('ALSHauss-ThinItalic'),
+    url('/fonts/alshaus/ALSHauss-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-ThinItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-ThinItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Bold.eot');
+    src: local('ALS Hauss Bold'), local('ALSHauss-Bold'),
+    url('/fonts/alshaus/ALSHauss-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Bold.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Bold.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-Regular.eot');
+    src: local('ALS Hauss Regular'), local('ALSHauss-Regular'),
+    url('/fonts/alshaus/ALSHauss-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-Regular.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-Regular.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-MediumItalic.eot');
+    src: local('ALS Hauss Medium Italic'), local('ALSHauss-MediumItalic'),
+    url('/fonts/alshaus/ALSHauss-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-MediumItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-MediumItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-LightItalic.eot');
+    src: local('ALS Hauss Light Italic'), local('ALSHauss-LightItalic'),
+    url('/fonts/alshaus/ALSHauss-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-LightItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-LightItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url('/fonts/alshaus/ALSHauss-HairlineItalic.eot');
+    src: local('ALS Hauss Hairline Italic'), local('ALSHauss-HairlineItalic'),
+    url('/fonts/alshaus/ALSHauss-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-HairlineItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-HairlineItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-HairlineItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('/fonts/alshaus/ALSHauss-BlackItalic.eot');
+    src: local('ALS Hauss Black Italic'), local('ALSHauss-BlackItalic'),
+    url('/fonts/alshaus/ALSHauss-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alshaus/ALSHauss-BlackItalic.woff2') format('woff2'),
+    url('/fonts/alshaus/ALSHauss-BlackItalic.woff') format('woff'),
+    url('/fonts/alshaus/ALSHauss-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
