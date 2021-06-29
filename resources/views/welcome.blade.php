@@ -12,12 +12,13 @@
                             <img src="https://leaderreaderjournal.com/wp-content/uploads/2021/01/dog.jpg"
                                  alt="Card image cap">
                         </div>
+
                         <div class="main__card__body">
-                            <span class="main__card__body__text">
-                                    Lorem
-                            </span>
+                            <strong>Компаниям</strong> <br>
+                            <span>компетентного сотрудника</span>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-md-6">
                     <div class="main__card">
@@ -27,13 +28,139 @@
                                 alt="Card image cap">
                         </div>
                         <div class="main__card__body">
-                            <span class="main__card__body__text">
-                                    Lorem
-                            </span>
+                            <strong>Компаниям</strong> <br>
+                            <span>компетентного сотрудника</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="help">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="help__title">
+                    Поможем <br>
+                    найти работу <br>
+                    вашей мечты
+                </h3>
+                <span class="help__title__small">Легко и просто в 1 клик</span>
+
+                <form action="" class="help__form">
+                    <input type="text" name="phone" id="phone" placeholder="+996 550 00 00 00">
+                    <button id="help__form__submit" type="submit">Заказать консультацию</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="about_us">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h3 class="about_us__title">
+                        Кто мы
+                    </h3>
+                </div>
+
+                <div class="col-md-6 about_us__text">
+                    <p>
+                        <b>Мы Make Nova</b> - агенство <br>
+                        предоставляющее услуги рекрутинга <br>
+                        и аутстаффинга.
+                    </p>
+                    <p>
+                        95% клиентов обращаются к нам повторно. <br>
+                        Говорят - мы показываем результат <br>
+                        и экономим время, предоставляя только <br>
+                        кандидатов, максимально соответствующих <br>
+                        требованиям - каждый пятый обычно <br>
+                        получает предложение о работе.
+                    </p>
+                    <p>
+                        Мы эффективны, так как используем <br>
+                        передовые инструменты автоматизации <br>
+                        и технологии поиска.
+                    </p>
+                </div>
+
+                <div class="col-md-6 about_us__more">
+                    <span class="about_us__more__text">
+                        Узнать больше
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            92%
+                        </h3>
+                        <small class="achievements__card__small">
+                            успешных кейсов
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            9
+                        </h3>
+                        <small class="achievements__card__small">
+                            стран покрытия
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            3
+                        </h3>
+                        <small class="achievements__card__small">
+                            года на рынке рекрутинга
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            5000+
+                        </h3>
+                        <small class="achievements__card__small">
+                            интервью
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            10 000
+                        </h3>
+                        <small class="achievements__card__small">
+                            человек в нашей <br>
+                            базе сотрудников
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievements__card">
+                        <h3 class="achievements__card__title">
+                            800+
+                        </h3>
+                        <small class="achievements__card__small">
+                            человек трудоустроены
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection

@@ -3,6 +3,7 @@
 body {
     font-family: "ALS Hauss" !important;
     padding-top: 70px;
+    height: 100vh;
 }
 
 .navbar {
@@ -34,29 +35,30 @@ body {
     border-radius: .5rem;
     width: 10rem;
     border: 0;
-}
 
-.navbar__contact_us img {
-    height: .8rem;
+    img {
+        height: .8rem;
+    }
 }
 
 .nav-item .active {
     color: #f07c00 !important;
-    border-bottom: 1px solid #f07c00;
+    border-bottom: 2px solid #f07c00;
 }
 
 .main {
     background-color: #f0f0f0;
-    height: 100vh;
 }
 
 section {
     padding: 2.5rem;
+    height: 101%;
 }
 
 .main__card {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .main__card__img {
@@ -66,17 +68,109 @@ section {
     border-radius: .9rem;
     height: 25rem;
     max-width: 20rem;
-}
 
-.main__card__img img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
 }
 
 .main__card__body {
     position: absolute;
-    bottom: -.5em;
-    top: auto;
+    bottom: 3rem;
+    left: 1.4rem;
+    font-size: 25px;
+    color: white;
+
+    strong {
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: #f07c00;
+        border-radius: .9rem .9rem 0 0;
+        padding: 1rem;
+    }
+
+    span {
+        font-size: .9em;
+        font-weight: 300;
+        background-color: #f07c00;
+        padding: .9rem;
+        border-radius: .9rem;
+    }
+}
+
+.help {
+    background-color: #1c1c1c;
+    color: white;
+
+    .help__form {
+        margin-top: 2rem;
+
+        #phone {
+            border-radius: 1.7rem 0 0 1.7rem;
+            border: 0;
+            padding: 1.2rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        #help__form__submit {
+            border-radius: 0 1.7rem 1.7rem 0;
+            border: 0;
+            padding: 1.2rem;
+            background-color: #f07c00;
+            color: white;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .help__title {
+        font-size: 5rem;
+        line-height: 90%;
+        margin-top: 4rem;
+    }
+
+    .help__title__small {
+        font-size: 1.8rem;
+    }
+}
+
+.about_us__title {
+    font-size: 3rem;
+    color: #96989b;
+}
+
+.about_us {
+    .row {
+        margin-top: 2rem;
+    }
+
+    .about_us__text {
+        font-size: 1.2rem;
+        line-height: 110%;
+    }
+
+    .about_us__more {
+        margin-top: -2.3rem;
+
+        .about_us__more__text {
+            border-bottom: 2px solid #f07c00;
+            padding-bottom:2px;
+        }
+    }
+}
+
+.achievements {
+    .achievements__card {
+        .achievements__card__title {
+            font-size: 4rem;
+        }
+    }
 }
 
