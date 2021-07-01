@@ -48,10 +48,13 @@ body {
 
 .main {
     background-color: #f0f0f0;
+
+    .container {
+        padding-top: 2.5rem;
+    }
 }
 
 section {
-    padding: 2.5rem;
     height: 101%;
 }
 
@@ -147,6 +150,7 @@ section {
 }
 
 .about_us {
+
     .row {
         margin-top: 2rem;
     }
@@ -161,16 +165,50 @@ section {
 
         .about_us__more__text {
             border-bottom: 2px solid #f07c00;
-            padding-bottom:2px;
+            padding-bottom: 2px;
         }
     }
 }
 
 .achievements {
+    background-color: #f8f8f8;
+    padding-top: 2.5rem;
+
     .achievements__card {
+        position: relative;
+        height: 10rem;
+        padding: .5rem 2rem .5rem 2rem;
+
         .achievements__card__title {
             font-size: 4rem;
+            color: white;
+
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #f07c00;
+        }
+
+        .achievements__card__small {
+            position: absolute;
+            bottom: 1rem;
+            color: #96989b;
+        }
+
+        &:hover {
+            background-color: white;
+            cursor: pointer;
+
+            .achievements__card__title {
+                color: #f07c00;
+
+                -webkit-text-stroke-width: 0;
+            }
+
+
+            .achievements__card__small {
+                color: black;
+            }
         }
     }
 }
+
 

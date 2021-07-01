@@ -97,7 +97,7 @@
 
     <section class="achievements">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row h-100 align-items-center">
                 <div class="col-md-4">
                     <div class="achievements__card">
                         <h3 class="achievements__card__title">
@@ -158,6 +158,50 @@
                             человек трудоустроены
                         </small>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about_info">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h3 class="about_us__title">
+                        Мы - мост между <br>
+                        компаниями <br>
+                        и специалистами,
+                        любящими свою <br>
+                        работу
+                    </h3>
+                </div>
+
+                <div class="col-md-6 about_us__text">
+                    <p>
+                        <b>Мы Make Nova</b> - агенство <br>
+                        предоставляющее услуги рекрутинга <br>
+                        и аутстаффинга.
+                    </p>
+                    <p>
+                        95% клиентов обращаются к нам повторно. <br>
+                        Говорят - мы показываем результат <br>
+                        и экономим время, предоставляя только <br>
+                        кандидатов, максимально соответствующих <br>
+                        требованиям - каждый пятый обычно <br>
+                        получает предложение о работе.
+                    </p>
+                    <p>
+                        Мы эффективны, так как используем <br>
+                        передовые инструменты автоматизации <br>
+                        и технологии поиска.
+                    </p>
+                </div>
+
+                <div class="col-md-6 about_us__more">
+                    <span class="about_us__more__text">
+                        Узнать больше
+                    </span>
                 </div>
             </div>
         </div>
