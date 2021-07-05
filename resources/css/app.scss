@@ -2,7 +2,6 @@
 
 body {
     font-family: "ALS Hauss" !important;
-    padding-top: 70px;
     height: 100vh;
 }
 
@@ -48,14 +47,6 @@ body {
 
 .main {
     background-color: #f0f0f0;
-
-    .container {
-        padding-top: 2.5rem;
-    }
-}
-
-section {
-    height: 101%;
 }
 
 .main__card {
@@ -207,6 +198,38 @@ section {
             .achievements__card__small {
                 color: black;
             }
+        }
+    }
+}
+
+section {
+    height: 100%;
+
+    .container {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.about_info {
+    background-color: #f07c00;
+    color: white;
+
+    .about_info__title {
+        font-size: 3rem;
+        line-height: 110%;
+        color: white;
+    }
+
+    .about_info__text {
+        font-size: 1.2rem;
+        line-height: 120%;
+    }
+
+    .about_info__more {
+        .about_info__more__text {
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
         }
     }
 }
