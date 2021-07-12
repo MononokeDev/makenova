@@ -127,7 +127,6 @@ body {
     .help__title {
         font-size: 5rem;
         line-height: 90%;
-        margin-top: 4rem;
     }
 
     .help__title__small {
@@ -212,11 +211,15 @@ section {
 }
 
 .about_info {
+    .row {
+        margin-top: 4rem;
+    }
+
     background-color: #f07c00;
     color: white;
 
     .about_info__title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 110%;
         color: white;
     }
@@ -227,10 +230,121 @@ section {
     }
 
     .about_info__more {
+        margin-top: -3rem;
+
         .about_info__more__text {
             border-bottom: 2px solid white;
             padding-bottom: 2px;
         }
+    }
+}
+
+.about_cards {
+    height: auto;
+
+    .row {
+        justify-content: space-around;
+    }
+
+    .about_cards__card {
+        height: 17rem;
+        width: 15rem;
+        text-align: center;
+        padding: 1.5rem .0rem;
+
+        &:hover {
+            box-shadow: 0 0 20px 0 grey;
+        }
+    }
+
+    .about_cards__card__title {
+        margin-top: 1.2rem;
+        font-weight: bold;
+    }
+
+    .about_cards__card__icon {
+        display: flex;
+        height: 6rem;
+        justify-content: center;
+    }
+}
+
+.partners {
+    height: auto;
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    .partners__title {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .partners__swiper {
+        margin-top: 4rem;
+    }
+
+    .splide__slide img {
+        width: 50%;
+    }
+}
+
+.partners__swiper-arrow {
+    position: absolute;
+    z-index: 1;
+    bottom: -5rem !important;
+    transform: translateY(-50%);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    opacity: .7;
+    background: #ccc;
+
+    svg {
+        height: 1.2rem;
+    }
+}
+
+.partners__swiper-prev {
+    left: 1rem;
+    transform: scaleX(-1);
+}
+
+.partners__swiper-next {
+    right: 1rem;
+}
+
+.team {
+    background-color: #f8f8f8;
+
+    .team__title {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .team__swiper {
+        margin-top: 1rem;
+    }
+
+    .card {
+        border: none;
+        border-radius: 0;
+        width: 15rem;
+
+        .card-img-top {
+            border-radius: 0;
+        }
+    }
+
+    .splide__slide {
+        display: flex;
+        justify-content: center;
     }
 }
 

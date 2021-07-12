@@ -205,4 +205,142 @@
         </div>
     </section>
 
+    <section class="about_cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 about_cards__card">
+                    <div class="about_cards__card__icon">
+                        <img src="{{ asset('images/icons/discord.svg') }}" alt="">
+                    </div>
+                    <h3 class="about_cards__card__title">
+                        800+
+                    </h3>
+                    <small class="about_cards__card__small">
+                        человек трудоустроены
+                    </small>
+                </div>
+                <div class="col-md-4 about_cards__card">
+                    <div class="about_cards__card__icon">
+                        <img src="{{ asset('images/icons/messenger.svg') }}" alt="">
+                    </div>
+                    <h3 class="about_cards__card__title">
+                        800+
+                    </h3>
+                    <small class="about_cards__card__small">
+                        человек трудоустроены
+                    </small>
+                </div>
+                <div class="col-md-4 about_cards__card">
+                    <div class="about_cards__card__icon">
+                        <img src="{{ asset('images/icons/tinder.svg') }}" alt="">
+                    </div>
+                    <h3 class="about_cards__card__title">
+                        800+
+                    </h3>
+                    <small class="about_cards__card__small">
+                        человек трудоустроены
+                    </small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <h3 class="partners__title">Наши партнеры</h3>
+
+        <div class="splide partners__swiper">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/discord.svg') }}" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/messenger.svg') }}" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/tinder.svg') }}" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/discord.svg') }}" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/messenger.svg') }}" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="{{ asset('images/icons/tinder.svg') }}" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <h3 class="team__title">Компанда Make Nova</h3>
+
+                <div class="splide team__swiper">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="card" >
+                                    <img class="card-img-top" src="https://pictures-of-cats.org/wp-content/uploads/2018/08/cat-staring-at-something.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Алина Макенова</h5>
+                                        <p class="card-text">СЕО, Кофаундер</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection

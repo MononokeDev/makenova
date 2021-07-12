@@ -12,6 +12,7 @@
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.3",
         "@popperjs/core": "^2.9.2",
+        "@splidejs/splide": "^2.4.21",
         "axios": "^0.21",
         "bootstrap": "^5.0.2",
         "laravel-mix": "^6.0.6",
