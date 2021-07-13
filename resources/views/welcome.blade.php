@@ -87,9 +87,7 @@
                 </div>
 
                 <div class="col-md-6 about_us__more">
-                    <span class="about_us__more__text">
-                        Узнать больше
-                    </span>
+                    <a class="about_us__more__text" href="#">Узнать больше</a>
                 </div>
             </div>
         </div>
@@ -97,7 +95,7 @@
 
     <section class="achievements">
         <div class="container">
-            <div class="row h-100 align-items-center">
+            <div class="row h-100 align-items-center gy-5">
                 <div class="col-md-4">
                     <div class="achievements__card">
                         <h3 class="achievements__card__title">
@@ -197,9 +195,7 @@
                 </div>
 
                 <div class="col-md-6 about_info__more">
-                    <span class="about_info__more__text">
-                        Узнать больше
-                    </span>
+                    <a class="about_info__more__text" href="#">Узнать больше</a>
                 </div>
             </div>
         </div>

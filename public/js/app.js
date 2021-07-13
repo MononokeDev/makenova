@@ -10931,22 +10931,23 @@ var partnersSwiper = new (_splidejs_splide__WEBPACK_IMPORTED_MODULE_7___default(
   padding: {
     right: '5rem',
     left: '5rem'
-  },
-  classes: {
-    arrow: 'partners__swiper-arrow',
-    prev: 'partners__swiper-prev',
-    next: 'partners__swiper-next'
-  }
+  } // classes: {
+  //     arrow : 'partners__swiper-arrow',
+  //     prev  : 'partners__swiper-prev',
+  //     next  : 'partners__swiper-next',
+  // },
+
 }).mount();
 var teamSwiper = new (_splidejs_splide__WEBPACK_IMPORTED_MODULE_7___default())('.team__swiper', {
   type: 'loop',
   perPage: 3,
   pagination: false,
-  classes: {
-    arrow: 'partners__swiper-arrow',
-    prev: 'partners__swiper-prev',
-    next: 'partners__swiper-next'
-  }
+  rewind: true // classes: {
+  //     arrow : 'partners__swiper-arrow',
+  //     prev  : 'partners__swiper-prev',
+  //     next  : 'partners__swiper-next',
+  // },
+
 }).mount();
 
 /***/ }),

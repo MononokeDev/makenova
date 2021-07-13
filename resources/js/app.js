@@ -21,20 +21,21 @@ let partnersSwiper = new Splide( '.partners__swiper', {
         left : '5rem',
     },
 
-    classes: {
-        arrow : 'partners__swiper-arrow',
-        prev  : 'partners__swiper-prev',
-        next  : 'partners__swiper-next',
-    },
+    // classes: {
+    //     arrow : 'partners__swiper-arrow',
+    //     prev  : 'partners__swiper-prev',
+    //     next  : 'partners__swiper-next',
+    // },
 }).mount();
 
 let teamSwiper = new Splide( '.team__swiper', {
     type   : 'loop',
     perPage: 3,
     pagination  : false,
-    classes: {
-        arrow : 'partners__swiper-arrow',
-        prev  : 'partners__swiper-prev',
-        next  : 'partners__swiper-next',
-    },
+    rewind : true,
+    // classes: {
+    //     arrow : 'partners__swiper-arrow',
+    //     prev  : 'partners__swiper-prev',
+    //     next  : 'partners__swiper-next',
+    // },
 }).mount();
